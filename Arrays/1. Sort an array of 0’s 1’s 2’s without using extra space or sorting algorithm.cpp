@@ -4,7 +4,7 @@
                Time Complexity  : O(nlogn)
                Space Complexity : O(n) (if we use mergesort) (or) O(1)
 
-   Approach 3 : Use count array of size 3 or a hashmap
+   Approach 2 : Use count array of size 3 or a hashmap
                 Time Complexity  : O(n)
                 Space Complexity : O(1) 
    
