@@ -1,8 +1,17 @@
 /* problem link : https://leetcode.com/problems/sort-colors/
-   Time Complexity  : O(n)
-   Space Complexity : O(1)
+  
+  Approach 1 : Sort the array directly
+               Time Complexity  : O(nlogn)
+               Space Complexity : O(n) (if we use mergesort) (or) O(1)
+
+   Approach 3 : Use count array of size 3 or a hashmap
+                Time Complexity  : O(n)
+                Space Complexity : O(1) 
    
-   Idea : Sweep all the 0's to the left and 2's to the right so that 1's stay in the middle  */
+   Approach 3 : DNF-sort (in-place sort)
+                Sweep all the 0's to the left and 2's to the right so that 1's stay in the middle
+                Time Complexity  : O(n)
+                Space Complexity : O(1)     */
 
 
 
