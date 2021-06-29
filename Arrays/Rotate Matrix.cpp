@@ -15,6 +15,7 @@ public:
         int r=matrix.size(),c=matrix[0].size();
         for(int i=0;i<r;i++)
             for(int j=0;j<i;j++)
+                // as the given matrix will be of size NxN we can directly swap but if the given matrix is of size MxN we need extra space
                 swap(matrix[i][j],matrix[j][i]);
         for(int i=0;i<r;i++)
             reverse(matrix[i].begin(),matrix[i].end());
