@@ -1,10 +1,12 @@
 /*Problem Link:https://leetcode.com/problems/rotate-image/
-Approach 1:Brute Force(Use another matrix and copy rows to columns)
-           Time Complexity: O(n^2)
-           Space Complexity:O(n^2)
-Approach 2:Transpose the matrix and reverse every row
-           Time Complexity: O(n^2)
-           Space Complexity:O(1)
+
+Approach 1: Brute Force(Use another matrix and copy rows to columns)
+            Time Complexity:  O(n²)
+            Space Complexity: O(n²)
+           
+Approach 2: Transpose the matrix and reverse every row
+            Time Complexity: O(n²)
+            Space Complexity:O(1)
 */
 
 class Solution {
