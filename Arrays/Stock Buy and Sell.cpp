@@ -14,7 +14,9 @@ public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size(),mini = INT_MAX,ans=0;
         for(int i=0;i<n;i++){
+            //updating the minimum element everytime
             mini = min(prices[i],mini);
+            //updating the answer with the current minimum element 
             ans = max(ans,prices[i]-mini);
         }
         return ans;
