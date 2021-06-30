@@ -2,7 +2,7 @@
 
 Approach 1: First we will sort the array and linearly traverse over it. For each pair we will check if it is overlapping with the previous one. We will merge if it overlaps 
             else we will not merge.
-            Time Complexity  : O(n)
+            Time Complexity  : O(nlogn)
             Space Complexity : O(1)
 */
 
