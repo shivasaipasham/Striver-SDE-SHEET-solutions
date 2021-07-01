@@ -1,4 +1,4 @@
-/*  Problem Link:https://leetcode.com/problems/search-a-2d-matrix/
+/*  Problem Link: https://leetcode.com/problems/majority-element/
 
 Approach 1: Sorting
             Time Complexity  : O(nlogn)
